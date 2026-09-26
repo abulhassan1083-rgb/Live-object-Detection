@@ -1,4 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment
+.env
+
+# Node
 node_modules/
 dist/
-.env
+
+# AI model files
+*.pt
+*.pth
+*.onnx
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# OS
 .DS_Store
+Thumbs.db
